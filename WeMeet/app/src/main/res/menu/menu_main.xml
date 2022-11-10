@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_account"
+        android:title="Account"
+        android:icon="@drawable/account_circle"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_favorite"
+        android:title="Favorite"
+        android:icon="@drawable/favorite_border"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_bookmark"
+        android:title="Bookmark"
+        android:icon="@drawable/bookmark_border"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_location"
+        android:title="Location"
+        android:icon="@drawable/location"
+        app:showAsAction="always"/>
+
+</menu>
