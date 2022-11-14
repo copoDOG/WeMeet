@@ -21,5 +21,4 @@
         android:title="Location"
         android:icon="@drawable/location"
         app:showAsAction="always"/>
-
 </menu>
