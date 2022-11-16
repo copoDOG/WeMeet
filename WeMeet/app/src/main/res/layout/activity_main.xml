@@ -14,12 +14,33 @@
             android:layout_height="match_parent"
             android:layout_gravity="start|left"
             app:headerLayout="@layout/header"
-            app:menu="@menu/menu" />
+            app:menu="@menu/menu"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
-                <include  layout="@layout/toolbar_main"/>
+                <include layout="@layout/toolbar_main" />
         </LinearLayout>
+        <!--상단바 레이아웃-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MainActivity">
+
+                <LinearLayout
+                    android:id="@+id/bottom_menu"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#777777"
+                    android:contentDescription="@string/app_name"
+                    android:elevation="5dp"
+                    android:orientation="horizontal">
+                        <include layout="@layout/bottom_main" />
+                </LinearLayout>
+                <!--하단바 레이아웃-->
+
+        </RelativeLayout>
 </androidx.drawerlayout.widget.DrawerLayout>
